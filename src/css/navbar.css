@@ -1,0 +1,59 @@
+/* 
+.Navbar li,ul,a
+{
+  display: inline;
+  text-decoration: none;
+  padding: 15px;
+  color:brown;
+}
+.Navbar
+{
+  padding: 15px;
+  background-color: rgb(0, 255, 225);
+  text-align: right;
+  margin-top: 1%;
+}
+.Navbar a:hover
+{
+  background-color: rgba(0, 0, 0, 0.728);
+  color:crimson;
+} 
+
+.aboutme 
+{
+  margin: 0px;
+  padding:10px;
+}
+.aboutme p
+{
+  margin-left: 50px;
+} */
+
+.Navbar ul
+{
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  background-color: aqua;
+  color: rgb(179, 230, 245);
+  margin-top:15px;
+  padding: 5px;
+}
+.Navbar li 
+{
+  margin:20px
+}
+.Navbar a
+{
+  text-decoration: none;
+}
+.Navbar a:hover 
+{
+  color: crimson;
+}
+h3
+{
+  margin-top: 5px;
+  text-align: center;
+  color: rgb(130, 130, 0);
+}
