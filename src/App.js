@@ -9,8 +9,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Skills from './components/functional_component/Skills';
 import Project from './components/functional_component/Project';
 import Home from './components/functional_component/Home';
-import Login from './components/functional_component/Contact';
+import Contact from './components/functional_component/Contact';
 import Footer from './components/functional_component/Footer';
+import Login from './components/functional_component/Login';
 
 function App() {
   return (
@@ -22,11 +23,11 @@ function App() {
         <Route path='/About' element={<Aboutme/>}></Route>
         <Route path='/Skills' element={<Skills/>}></Route>
         <Route path='/Project' element={<Project/>}></Route>
-        <Route path='/Contact' element={<Login></Login>}></Route>
+        <Route path='/Contact' element={<Contact/>}></Route>
+        <Route path='/Login' element={<Login/>}></Route>
+        
       </Routes>
       </BrowserRouter>
-      {/* <header className="App-header">
-      </header> */}
       <div className="footer-design">
       <Footer></Footer>
       </div>

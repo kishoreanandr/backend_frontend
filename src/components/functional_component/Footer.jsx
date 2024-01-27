@@ -13,9 +13,9 @@ const Footer =()=>
         <div className="footer">
             <footer>
             <ul>
-                <p>&copy;Welcome to {college_name}. <button onDoubleClick={updatingclg}>Click here to die!</button><br></br> 2024 Copyrights.All rights Rserved|</p><br></br>
-                <li><a href="https://github.com/kishoreanandr">Git Hub</a>|</li>
-                <li><a href="mailto:kishoreanand.r@gmail.com">Gmail</a></li>
+                <p>&copy;Welcome to {college_name}. <button onDoubleClick={updatingclg}>Click here to die!</button><br></br> 2024 Copyrights.All rights Rserved</p>
+                <li><a href="https://github.com/kishoreanandr">Git Hub </a>|
+                <a href="mailto:kishoreanand.r@gmail.com"> Gmail</a></li>
             </ul>
             </footer>
         </div>

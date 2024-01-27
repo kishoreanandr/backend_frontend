@@ -1,0 +1,13 @@
+.project
+{
+    margin: 20px;
+    text-align: center;
+}
+.project a{
+    text-decoration: none;
+    color: darkcyan;
+}
+.project a:hover
+{
+    text-decoration: underline;
+}

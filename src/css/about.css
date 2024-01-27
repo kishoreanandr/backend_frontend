@@ -1,7 +1,6 @@
-
-.about p
+.about 
 {
+    margin: 15px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 10px;
 }
